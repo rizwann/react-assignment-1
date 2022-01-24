@@ -4,6 +4,7 @@ import CardDetails from "./components/cardDetails/CardDetails";
 import Cards from "./components/cards/Cards";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Footer from "./components/footer/Footer";
+import Navbar from "./components/navbar/Navbar";
 
 function App() {
   const [users, setUsers] = useState([]);
@@ -19,6 +20,7 @@ function App() {
 
   return (
     <Router>
+      <Navbar/>
       <Routes>
         <Route path="/" element={<Cards users={users} />} />
         <Route path="/users/:id" element={<CardDetails />} />

@@ -1,0 +1,17 @@
+.navbar{
+    background-color: #fff;
+    border-bottom: 1px solid #913535;
+    border-radius: 0;
+    box-shadow: 0 1px 0 #3d91db;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+.container{
+  height: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}
+
